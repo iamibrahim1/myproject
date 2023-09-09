@@ -19,44 +19,44 @@ export default {
    APIs: {
       xzn: {
          URI: 'https://xzn.wtf',
-         Key: "i dont know"
+         Key: "wakwak"
       }
    },
 
    msg: {
-      owner: 'Perintah ini hanya dapat digunakan oleh Owner!',
-      group: 'Perintah ini hanya dapat digunakan di group!',
-      private: 'Perintah ini hanya dapat digunakan di private chat!',
-      admin: 'Perintah ini hanya dapat digunakan oleh admin group!',
-      botAdmin: 'Bot bukan admin, tidak dapat mengakses fitur tersebut',
-      bot: 'Fitur ini hanya dapat diakses oleh Bot',
-      locked: 'Fitur ini telah dinonaktifkan!',
-      media: 'Reply media...',
-      error: "Sepertinya ada kesalahan. bot gagal dalam mengeksekusi...",
-      quoted: "Reply message...",
-      wait: "",
-      premium: "Perintah ini hanya dapat digunakan oleh pengguna premium!",
-      vip: "Perintah ini hanya dapat digunakan oleh pengguna VIP!",
-      dlFree: `File over ${formatSize(limit.download.free)} can only be accessed by premium users`,
-      dlPremium: `WhatsApp Web cannot send files larger than ${formatSize(limit.download.premium)}`,
-      dlVIP: `WhatsApp cannot send files larger than ${formatSize(limit.download.VIP)}`
+    owner: 'This command can only be used by the Owner!',
+       group: 'This command can only be used in groups!',
+       private: 'This command can only be used in private chat!',
+       admin: 'This command can only be used by group admins!',
+       botAdmin: 'Bot is not an admin, cannot access the feature',
+       bot: 'This feature can only be accessed by Bots',
+       locked: 'This feature has been disabled!',
+       media: 'Reply media...',
+       error: "There seems to be an error. The bot failed to execute...",
+       quoted: "Reply message...",
+       wait: "",
+       premium: "This command can only be used by premium users!",
+       vip: "This command can only be used by VIP users!",
+       dlFree: `File over ${formatSize(limit.download.free)} can only be accessed by premium users`,
+       dlPremium: `WhatsApp Web cannot send files larger than ${formatSize(limit.download.premium)}`,
+       dlVIP: `WhatsApp cannot send files larger than ${formatSize(limit.download.VIP)}`
    },
 
    options: {
       public: true,
       URI: "database.json", // use mongo or file json
-      owner: ["6288292024190", "62858156631709"],
+      owner: ["923229931076"],
       pathCommand: 'commands'
    },
 
    Exif: {
-      packId: "https://instagram.com/cak_haho",
-      packName: `Sticker ini Dibuat Oleh :`,
-      packPublish: "Dika Ardnt.",
-      packEmail: "dika.ardianta7@yahoo.com",
-      packWebsite: "https://instgaram.com/cak_haho",
-      androidApp: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro",
-      iOSApp: "https://apps.apple.com/id/app/muslim-pro-al-quran-adzan/id388389451?|=id",
+      packId: "Lucifer Md",
+      packName: `Lucifer Md :`,
+      packPublish: "Lucifer Md.",
+      packEmail: "ibrahim@imaibrahim.tech",
+      packWebsite: "lucifercloud.me",
+      androidApp: "https://play.google.com/login",
+      iOSApp: "https://apps.apple.com/login,
       categories: ['😹', '😎', '😱'],
       isAvatar: 0
    },
